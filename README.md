@@ -1,6 +1,6 @@
 # TV Shows - example
-Created on [next.js](https://github.com/zeit/next.js)  
 Example at [tvshows.now.sh](https://tvshows.now.sh)  
+Created on [next.js](https://github.com/zeit/next.js)  
 TV shows source [tvmaze.com](http://api.tvmaze.com)
 ## Use
 ```bash
