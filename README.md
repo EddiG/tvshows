@@ -16,3 +16,12 @@ or production server
 ```bash
 yarn start
 ```
+### Deploy at [Now](https://zeit.co/now)
+Install `now`
+```bash
+yarn global add now
+```
+Deploy
+```bash
+now
+```
