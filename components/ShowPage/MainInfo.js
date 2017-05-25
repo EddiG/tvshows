@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import { Item, List, Rating, Container } from 'semantic-ui-react';
+import fixUrls from '../../utils/fixUrls';
 
 const MainInfo = ({
   image,
@@ -12,7 +13,7 @@ const MainInfo = ({
 }) => (
   <Item.Group>
     <Item>
-      <Item.Image size="small" src={image && image.medium} />
+      <Item.Image size="small" src={fixUrls(image && image.medium)} />
       <Item.Content>
         <Container textAlign="right">
           <Rating
